@@ -14,7 +14,7 @@ There are two sets of Gerber files, one with silkscreen legends, and one where t
 
 ### Bill of Materials
 
-You can find a BOM with Mouser part numbers [here](https://github.com/glitchwrks/xt_ide_slot_8_support/blob/master/bill_of_materials.md). Pull requests with BOMs for other suppliers are welcome! Do note that you can purchase complete parts kits from [The Glitch Works](http://www.glitchwrks.com/xt_ide/) in addition to bare PC boards.
+You can find a BOM with Mouser part numbers [here](https://github.com/glitchwrks/xt_ide_slot_8_support/blob/master/bill_of_materials.md). Pull requests with BOMs for other suppliers are welcome! Do note that you can purchase complete parts kits from [The Glitch Works](http://www.glitchwrks.com/xt-ide) in addition to bare PC boards.
 
 ### Notes on Running This Board
 
