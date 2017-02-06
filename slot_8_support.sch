@@ -1,0 +1,303 @@
+EESchema Schematic File Version 2
+LIBS:slot_8_support-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:slot_8_support-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "XT-IDE Slot 8 Support"
+Date "2016-09-15"
+Rev "01"
+Comp "The Glitch Works"
+Comment1 "J. Chapman"
+Comment2 ""
+Comment3 ""
+Comment4 "Provides IBM XT Slot 8 support for XT-IDE boards"
+$EndDescr
+$Comp
+L 74LS33 U1
+U 4 1 57D986CD
+P 9250 6150
+F 0 "U1" H 9250 6200 60  0000 C CNN
+F 1 "74LS33" H 9300 6100 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 9250 6150 60  0001 C CNN
+F 3 "" H 9250 6150 60  0000 C CNN
+	4    9250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS33 U1
+U 1 1 57D98769
+P 4750 3300
+F 0 "U1" H 4750 3350 60  0000 C CNN
+F 1 "74LS33" H 4800 3250 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 4750 3300 60  0001 C CNN
+F 3 "" H 4750 3300 60  0000 C CNN
+	1    4750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS33 U1
+U 2 1 57D987A0
+P 4750 3800
+F 0 "U1" H 4750 3850 60  0000 C CNN
+F 1 "74LS33" H 4800 3750 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 4750 3800 60  0001 C CNN
+F 3 "" H 4750 3800 60  0000 C CNN
+	2    4750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS33 U1
+U 3 1 57D987CC
+P 6550 3550
+F 0 "U1" H 6550 3600 60  0000 C CNN
+F 1 "74LS33" H 6600 3500 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-14_N" H 6550 3550 60  0001 C CNN
+F 3 "" H 6550 3550 60  0000 C CNN
+	3    6550 3550
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5350 3300 5650 3300
+Wire Wire Line
+	5650 2850 5650 3450
+Wire Wire Line
+	5650 3450 5950 3450
+Wire Wire Line
+	5650 3800 5650 3650
+Wire Wire Line
+	5650 3650 5950 3650
+$Comp
+L CONN_1 TP1
+U 1 1 57D98844
+P 7500 3550
+F 0 "TP1" H 7580 3550 40  0000 L CNN
+F 1 "CONN_1" H 7500 3605 30  0001 C CNN
+F 2 "testpoints:SMD_TESTPOINT" H 7500 3550 60  0001 C CNN
+F 3 "" H 7500 3550 60  0000 C CNN
+	1    7500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 /MEMR1
+U 1 1 57D988A6
+P 3800 3200
+F 0 "/MEMR1" H 3880 3200 40  0000 L CNN
+F 1 "CONN_1" H 3800 3255 30  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 3800 3200 60  0001 C CNN
+F 3 "" H 3800 3200 60  0000 C CNN
+	1    3800 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 /CS_ROM1
+U 1 1 57D988DB
+P 3800 3400
+F 0 "/CS_ROM1" H 3880 3400 40  0000 L CNN
+F 1 "CONN_1" H 3800 3455 30  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 3800 3400 60  0001 C CNN
+F 3 "" H 3800 3400 60  0000 C CNN
+	1    3800 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 TP2
+U 1 1 57D9892A
+P 3800 3700
+F 0 "TP2" H 3880 3700 40  0000 L CNN
+F 1 "CONN_1" H 3800 3755 30  0001 C CNN
+F 2 "testpoints:SMD_TESTPOINT" H 3800 3700 60  0001 C CNN
+F 3 "" H 3800 3700 60  0000 C CNN
+	1    3800 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 TP3
+U 1 1 57D9895B
+P 3800 3900
+F 0 "TP3" H 3880 3900 40  0000 L CNN
+F 1 "CONN_1" H 3800 3955 30  0001 C CNN
+F 2 "testpoints:SMD_TESTPOINT" H 3800 3900 60  0001 C CNN
+F 3 "" H 3800 3900 60  0000 C CNN
+	1    3800 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 3200 4150 3200
+Wire Wire Line
+	3950 3400 4150 3400
+Wire Wire Line
+	3950 3700 4150 3700
+Wire Wire Line
+	3950 3900 4150 3900
+Wire Wire Line
+	7150 3550 7350 3550
+$Comp
+L C C1
+U 1 1 57D989F8
+P 1600 7150
+F 0 "C1" H 1625 7250 50  0000 L CNN
+F 1 "0.1uF" H 1625 7050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1638 7000 50  0001 C CNN
+F 3 "" H 1600 7150 50  0000 C CNN
+	1    1600 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 57D98A6B
+P 5450 2700
+F 0 "R1" V 5530 2700 50  0000 C CNN
+F 1 "10K" V 5450 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5380 2700 50  0001 C CNN
+F 3 "" H 5450 2700 50  0000 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 57D98AAD
+P 5650 2700
+F 0 "R2" V 5730 2700 50  0000 C CNN
+F 1 "10K" V 5650 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 5580 2700 50  0001 C CNN
+F 3 "" H 5650 2700 50  0000 C CNN
+	1    5650 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 3300
+$Comp
+L VCC #PWR4
+U 1 1 57D98BAE
+P 5550 2400
+F 0 "#PWR4" H 5550 2500 30  0001 C CNN
+F 1 "VCC" H 5550 2500 30  0000 C CNN
+F 2 "" H 5550 2400 60  0000 C CNN
+F 3 "" H 5550 2400 60  0000 C CNN
+	1    5550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3800 5650 3800
+Wire Wire Line
+	5450 2850 5450 3800
+Connection ~ 5450 3800
+Wire Wire Line
+	5450 2550 5450 2500
+Wire Wire Line
+	5450 2500 5650 2500
+Wire Wire Line
+	5650 2500 5650 2550
+Wire Wire Line
+	5550 2400 5550 2500
+Connection ~ 5550 2500
+$Comp
+L VCC #PWR1
+U 1 1 57D98CF9
+P 1600 6850
+F 0 "#PWR1" H 1600 6950 30  0001 C CNN
+F 1 "VCC" H 1600 6950 30  0000 C CNN
+F 2 "" H 1600 6850 60  0000 C CNN
+F 3 "" H 1600 6850 60  0000 C CNN
+	1    1600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-slot_8_support #PWR2
+U 1 1 57D98D31
+P 1600 7450
+F 0 "#PWR2" H 1600 7450 30  0001 C CNN
+F 1 "GND" H 1600 7380 30  0001 C CNN
+F 2 "" H 1600 7450 60  0000 C CNN
+F 3 "" H 1600 7450 60  0000 C CNN
+	1    1600 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 7300 1600 7450
+Wire Wire Line
+	1600 7000 1600 6850
+$Comp
+L GND-RESCUE-slot_8_support #PWR3
+U 1 1 57D98DAC
+P 8550 6400
+F 0 "#PWR3" H 8550 6400 30  0001 C CNN
+F 1 "GND" H 8550 6330 30  0001 C CNN
+F 2 "" H 8550 6400 60  0000 C CNN
+F 3 "" H 8550 6400 60  0000 C CNN
+	1    8550 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 6400 8550 6050
+Wire Wire Line
+	8550 6050 8650 6050
+Wire Wire Line
+	8650 6250 8550 6250
+Connection ~ 8550 6250
+$Comp
+L CONN_1 P6
+U 1 1 57D98F25
+P 1950 6900
+F 0 "P6" H 2030 6900 40  0000 L CNN
+F 1 "CONN_1" H 1950 6955 30  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 1950 6900 60  0001 C CNN
+F 3 "" H 1950 6900 60  0000 C CNN
+	1    1950 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P7
+U 1 1 57D98FA9
+P 1950 7350
+F 0 "P7" H 2030 7350 40  0000 L CNN
+F 1 "CONN_1" H 1950 7405 30  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_0-8mmDrill" H 1950 7350 60  0001 C CNN
+F 3 "" H 1950 7350 60  0000 C CNN
+	1    1950 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 7350 1600 7350
+Connection ~ 1600 7350
+Wire Wire Line
+	1800 6900 1600 6900
+Connection ~ 1600 6900
+Text Notes 5100 4300 0    60   ~ 0
+Slot 8 /CARDSEL Driver
+Text Notes 1350 6500 0    60   ~ 0
+Power Supply Bypass
+Text Notes 8750 5750 0    60   ~ 0
+Spare Gates
+$EndSCHEMATC
