@@ -5,8 +5,8 @@
     (no_connects 0)
     (area 113.957619 89.581428 136.965 128.858571)
     (thickness 1.6)
-    (drawings 34)
-    (tracks 76)
+    (drawings 31)
+    (tracks 75)
     (zones 0)
     (modules 11)
     (nets 10)
@@ -21,8 +21,8 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user)
-    (38 B.Mask user)
+    (37 F.SilkS user hide)
+    (38 B.Mask user hide)
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
@@ -31,13 +31,13 @@
     (44 Edge.Cuts user)
     (45 Margin user)
     (46 B.CrtYd user)
-    (47 F.CrtYd user)
+    (47 F.CrtYd user hide)
     (48 B.Fab user)
     (49 F.Fab user)
   )
 
   (setup
-    (last_trace_width 0.8128)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.2032)
     (user_trace_width 0.3048)
@@ -125,16 +125,16 @@
     (add_net VCC)
   )
 
-  (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 5898A193) (tstamp 57D988B4)
+  (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 5898B227) (tstamp 57D988B4)
     (at 125.73 95.25 180)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /57D989F8)
     (attr smd)
-    (fp_text reference C1 (at 2.54 1.905 180) (layer F.SilkS)
+    (fp_text reference C1 (at 2.54 1.905 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1uF (at -1.27 1.905 180) (layer F.SilkS)
+    (fp_text value 0.1uF (at -1.27 1.905 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.3 -1.15) (end 3.3 -1.15) (layer F.CrtYd) (width 0.05))
@@ -154,16 +154,16 @@
     )
   )
 
-  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57D9B5BD) (tstamp 57D988D8)
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 5898B248) (tstamp 57D988D8)
     (at 125.73 99.695 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /57D98A6B)
     (attr smd)
-    (fp_text reference R1 (at 2.54 1.905 180) (layer F.SilkS)
+    (fp_text reference R1 (at 2.54 1.905 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at -1.905 1.905 180) (layer F.SilkS)
+    (fp_text value 10K (at -1.905 1.905 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
@@ -183,16 +183,16 @@
     )
   )
 
-  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57D9B5BF) (tstamp 57D988DE)
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 5898B24D) (tstamp 57D988DE)
     (at 125.73 104.14 180)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /57D98AAD)
     (attr smd)
-    (fp_text reference R2 (at 2.54 1.905 180) (layer F.SilkS)
+    (fp_text reference R2 (at 2.54 1.905 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10K (at -1.905 1.905 180) (layer F.SilkS)
+    (fp_text value 10K (at -1.905 1.905 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
@@ -212,13 +212,13 @@
     )
   )
 
-  (module SMD_Packages:SOIC-14_N (layer F.Cu) (tedit 5898A24D) (tstamp 57D988F0)
+  (module SMD_Packages:SOIC-14_N (layer F.Cu) (tedit 5898B233) (tstamp 57D988F0)
     (at 125.73 112.395 270)
     (descr "Module CMS SOJ 14 pins Large")
     (tags "CMS SOJ")
     (path /57D986CD)
     (attr smd)
-    (fp_text reference U1 (at -5.715 0 360) (layer F.SilkS)
+    (fp_text reference U1 (at -5.715 0 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 74LS33 (at 0 0 270) (layer F.SilkS) hide
@@ -291,10 +291,10 @@
       (net 2 GND))
   )
 
-  (module testpoints:SMD_TESTPOINT (layer F.Cu) (tedit 57D9A410) (tstamp 57D9A40E)
+  (module testpoints:SMD_TESTPOINT (layer F.Cu) (tedit 5898B238) (tstamp 57D9A40E)
     (at 127.508 119.888)
     (path /57D98844)
-    (fp_text reference TP1 (at -2.794 -1.27) (layer F.SilkS)
+    (fp_text reference TP1 (at -2.794 -1.27) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_1 (at 0 -2) (layer F.Fab) hide
@@ -304,10 +304,10 @@
       (net 5 "Net-(TP1-Pad1)"))
   )
 
-  (module testpoints:SMD_TESTPOINT (layer F.Cu) (tedit 57D9A413) (tstamp 57D9A413)
+  (module testpoints:SMD_TESTPOINT (layer F.Cu) (tedit 5898B23B) (tstamp 57D9A413)
     (at 122.428 124.714)
     (path /57D9892A)
-    (fp_text reference TP2 (at 0 -2.032) (layer F.SilkS)
+    (fp_text reference TP2 (at 0 -2.032) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_1 (at 0 -2) (layer F.Fab) hide
@@ -317,10 +317,10 @@
       (net 6 "Net-(TP2-Pad1)"))
   )
 
-  (module testpoints:SMD_TESTPOINT (layer F.Cu) (tedit 57D9A415) (tstamp 57D9A418)
+  (module testpoints:SMD_TESTPOINT (layer F.Cu) (tedit 5898B23F) (tstamp 57D9A418)
     (at 127.508 124.714)
     (path /57D9895B)
-    (fp_text reference TP3 (at 0 -2.032) (layer F.SilkS)
+    (fp_text reference TP3 (at 0 -2.032) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_1 (at 0 -2) (layer F.Fab) hide
@@ -356,15 +356,6 @@
       (net 9 "Net-(/MEMR1-Pad1)"))
   )
 
-  (gr_text 74LS33 (at 125.73 112.395 270) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.1778)))
-  )
-  (gr_text "Slot 8 Support" (at 120.904 100.33 270) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.1778)))
-  )
-  (gr_text www.glitchwrks.com/xt-ide (at 130.556 102.362 270) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.1778)))
-  )
   (gr_text TP2 (at 120.904 121.412 270) (layer F.Mask)
     (effects (font (size 1.016 1.016) (thickness 0.1778)))
   )
@@ -427,7 +418,6 @@
   (segment (start 127.73 108.553) (end 127.73 104.14) (width 0.4064) (layer F.Cu) (net 1) (tstamp 57D99A31))
   (segment (start 127.635 104.775) (end 127.73 104.14) (width 0.4064) (layer F.Cu) (net 1) (tstamp 57D996F2))
   (segment (start 133.35 125.73) (end 130.81 125.73) (width 0.8128) (layer F.Cu) (net 2))
-  (segment (start 130.81 125.73) (end 130.683 125.603) (width 0.8128) (layer F.Cu) (net 2) (tstamp 57D9FD55))
   (segment (start 124.206 109.22) (end 121.539 109.22) (width 0.3048) (layer F.Cu) (net 3))
   (segment (start 124.46 109.474) (end 124.206 109.22) (width 0.3048) (layer F.Cu) (net 3) (tstamp 57D9B516))
   (segment (start 124.46 112.395) (end 124.46 109.728) (width 0.3048) (layer F.Cu) (net 3) (tstamp 57D998A6))
