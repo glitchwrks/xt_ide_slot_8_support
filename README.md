@@ -1,16 +1,16 @@
 # Slot 8 Support for the XT-IDE 8-Bit IDE Controller
 
-*Caution: Work in Progress! Only submit the slot_8_support_nosilk.zip file at the moment!*
-
 [Glitch Works](http://www.glitchwrks.com/) daughterboard for Slot 8 Support on the XT-IDE. This module can be used with any XT-IDE that includes ISA pin `B8`, which is all [rev 3](http://www.glitchwrks.com/2016/07/06/xt-ide-rev3) boards, most rev 2 boards, and early rev 1 boards. Production rev 1 boards (2009-2010 era) had `B8` removed to reduce cost, and can't use this module
 
 More info on the Glitch Works project to provide XT-IDE related boards, kits, and fully assembled units [can be found here](http://www.glitchwrks.com/xt-ide). A writeup on the Slot 8 Support design process [is available here](http://www.glitchwrks.com/2017/02/03/slot-8-support).
 
 ### Versions
 
-There are two sets of Gerber files, one with silkscreen legends, and one where the legends are done in solder mask relief. The version using solder mask relief is what the Glitch Works kits include, and can be run through board houses that have lousy silkscreen quality.
+Originally there were two sets of Gerber files for this project, one with silkscreen legends, and one where the legend was done as solder mask relief. I've since dropped the silkscreened version since the "nosilk" version can be run at any board house, even those with lousy silkscreen quality. Here's the current production board, with castellated mounting holes:
 
-![Silkscreen Version](https://github.com/glitchwrks/xt_ide_slot_8_support/blob/master/proto.png) ![Solder Mask Relief Version](https://github.com/glitchwrks/xt_ide_slot_8_support/blob/master/proto_nosilk.png)
+![Solder Mask Relief Version](https://github.com/glitchwrks/xt_ide_slot_8_support/blob/master/proto_nosilk.png)
+
+This version is 100% functional and the Gerbers can be submitted directly to OSH Park. You'll receive a board with [castellated holes](http://docs.oshpark.com/tips+tricks/castellation/) (which may require some deburring). OSH Park boards have been run and tested, and found to be completely functional.
 
 ### Bill of Materials
 
